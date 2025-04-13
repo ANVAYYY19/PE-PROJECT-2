@@ -110,7 +110,7 @@
     const promptInput = document.getElementById('prompt');
     const resultsDiv = document.getElementById('results');
 
-    const API_KEY = "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"; // Replace with your actual OpenRouter API key
+    const API_KEY = "MY_API_KEY"; // Replace with your actual OpenRouter API key
 
     function escapeHTML(str) {
       return str.replace(/[&<>'"]/g, tag => {
